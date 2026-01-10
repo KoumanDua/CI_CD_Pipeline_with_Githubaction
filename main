@@ -1,6 +1,6 @@
 name: pull_requesr_flow
 on: 
-  pull_request:
+  main:
 jobs:
   test:
     runs-on: ubuntu-latest
