@@ -5,9 +5,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo ::notice::Un message info
-          echo ::warning::Un warning
-          echo ::error::Une erreure
+      - run: 
+          pwd
+          echo $SHELL
+        
           
       
