@@ -8,6 +8,7 @@ jobs:
       - run: 
           pwd
           echo $SHELL
+          sleep 5
         
           
       
