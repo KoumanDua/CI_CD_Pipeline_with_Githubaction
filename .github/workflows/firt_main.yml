@@ -10,7 +10,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
         version: [12, 13, 14]
     steps:
-      - run: echo ${{ubuntu-latest.version, windows-latest.version}}
+      - run: echo ${{ubuntu-latest.version}} ${{windows-latest.version}}
         
           
       
